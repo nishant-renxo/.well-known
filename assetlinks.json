@@ -3,6 +3,6 @@
     "target": {
       "namespace": "android_app",
       "package_name": "com.Renxo.DeepLink",
-      "sha256_cert_fingerprints": ["F7:54:EC:97:13:EF:9F:F1:2A:AA:7F:16:54:C0:2B:84:6A:77:20:E7:A9:5E:1F:79:C8:ED:C2:02:B5:D4:EA:7E"]
+      "sha256_cert_fingerprints": ["F8:B7:E8:87:2C:66:DB:01:C0:EE:81:21:46:84:7A:57:02:92:57:9C:3B:33:E9:95:49:99:6B:65:D5:73:29:10"]
     }
   }]
