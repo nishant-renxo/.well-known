@@ -1,8 +1,25 @@
 [{
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "com.Renxo.DeepLink",
-      "sha256_cert_fingerprints": ["F8:B7:E8:87:2C:66:DB:01:C0:EE:81:21:46:84:7A:57:02:92:57:9C:3B:33:E9:95:49:99:6B:65:D5:73:29:10","0C:9C:04:BA:91:C8:FC:7A:80:5B:85:C7:D2:C8:04:56:20:F6:2B:2A:BB:FA:7A:E8:9D:E8:57:E5:DD:08:D2:BE"]
-    }
-  }]
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.Renxo.DeepLink",
+    "sha256_cert_fingerprints":
+    ["F8:B7:E8:87:2C:66:DB:01:C0:EE:81:21:46:84:7A:57:02:92:57:9C:3B:33:E9:95:49:99:6B:65:D5:73:29:10"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://nishant-renxo.github.io"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.Renxo.DeepLink",
+    "sha256_cert_fingerprints":
+    ["F8:B7:E8:87:2C:66:DB:01:C0:EE:81:21:46:84:7A:57:02:92:57:9C:3B:33:E9:95:49:99:6B:65:D5:73:29:10"]
+  }
+}]
